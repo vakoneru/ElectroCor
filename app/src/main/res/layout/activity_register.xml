@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="@android:color/white"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/imageRegister"
+        android:text="Sign Up"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_above="@+id/buttonLoginReg"
+        android:background="#CF5300"
+        android:typeface="monospace"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLoginReg"
+        android:text="ALREADY HAVE AN ACCOUNT? SIGN IN."
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:typeface="monospace"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageProfilePicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/addpicture"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="60dp"
+        android:clickable="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:typeface="monospace"/>
+        <EditText
+            android:id="@+id/registerUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter username here"
+            android:inputType="textAutoComplete"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:layout_marginLeft="30dp"
+            android:typeface="monospace"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter password here"
+            android:inputType="textPassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelUsername"
+            android:text="EMAIL"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:typeface="monospace"/>
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter email here"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:typeface="monospace"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

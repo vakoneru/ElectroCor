@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/buttonStart"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/timerValue"
+        android:background="#CF5300"/>
+
+    <TextView
+        android:id="@+id/timerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#CF5300"
+        android:text="@string/timerVal"
+        android:layout_marginBottom="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/ecgPlot"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        androidPlot.title="Your ECG"
+        androidPlot.domainLabel="Time"
+        androidPlot.rangeLabel="ECG"
+        android:layout_gravity ="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/buttonStop"
+        android:layout_alignTop="@+id/buttonStart"
+        android:layout_alignEnd="@+id/timerValue"
+        android:background="#CF5300"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bluetooth Status"
+        android:id="@+id/textBTStatus"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload data to parse"
+        android:id="@+id/buttonConnectBTDevice"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

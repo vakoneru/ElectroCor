@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/classes-362dbd688a544fcde0d2f14b067399c932041698.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-2f5460d2d59b5bd364f5972108ab6a6ae436d73d.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/classes-ddee6fe148fb24f8c78d96da9ccf46457a8e1cf2.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-1d6fe56e9882e6127ed2c48a2d0a139c62b7a315.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/libs/androidplot-core-0.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3db0daea52375b26bfa61c59b8df93950bdefbbc">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-97855fe4927d77dd0e2634f53de182ca27f3ffd2.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/libs/Parse-1.10.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a859414011ce2c18187acc83319688e6bd340635">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/Parse-1.10.2-d0209f7563e360bf2be3cde45b4a80057b217898.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-f91a15f8a15a0418c2e0f9fc615fc138620121fb.jar" />
+    </item>
+    <item
+        jar="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/varunkoneru/Dropbox/ElectroCor/ElectroCor/app/build/intermediates/pre-dexed/debug/classes-b719364604e664ce77b57d76effc686f0b50f34a.jar" />
+    </item>
+
+</items>

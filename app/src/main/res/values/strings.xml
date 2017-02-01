@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ElectroCor</string>
+
+    <string name="title_section1">Dashboard</string>
+    <string name="title_section2">Transmit Data</string>
+    <string name="title_section3">Journal</string>
+    <string name="title_section4">Help/FAQ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_bluetooth">Bluetooth</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="timerVal">00:00:00:000</string>
+    <string name="countVal">Taps: 0</string>
+
+    <string name="none_paired">No Bluetooth devices paired.</string>
+
+    <string name="helpfaq_text">Why I am I using ElectoCor?\n \t Your physician likely recommended the use of ElectroCor to monitor some type of cardiac arrhythmia, such as atrial fibrillation, atrial flutter, ventricular fibrillation, ventricular tachycardia, heart block, sinus arrhythmia, or Wolff Parkinson White Syndrome among others.
+\n\n What are the benefits of ElectroCor compared to traditional Holter monitors?\n \t Many patients complain that electrode leads obstruct their daily routines. ElectroCor offers wireless electrodes to facilitate greater range of motion and seamless integration into your daily routine.
+\n\n How long do I need to use ElectroCor?\n \t Traditional testing lasts approximately 24-48 hours, however you should follow your physician’s instructions on the duration of the test.
+\n\n What should I do if an electrode falls off?\n \t If an electrode falls off, apply a new electrode as supplied by your physician. If you are unsure where to place the electrode, please contact your physician.
+\n\n What should I do if I accidentally end the test prematurely?\n \t If you end the test prematurely, please make a note of it as a journal entry to inform your physician that the data is being sent as two separate files.
+\n\n Can I shower while wearing ElectroCor electrodes?\n \t No, at this time, ElectroCor is not designed to be water resistant.</string>
+
+</resources>

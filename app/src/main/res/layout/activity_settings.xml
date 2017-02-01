@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:src="@drawable/settings"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editOldPassword"
+        android:hint="Enter old password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:typeface="monospace"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNewPassword"
+        android:hint="Enter new password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:typeface="monospace"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editRepeatPassword"
+        android:hint="Repeat new password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:typeface="monospace"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Change Password"
+        android:textSize="30sp"
+        android:id="@+id/buttonChangePassword"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editOldEmail"
+        android:hint="Enter old email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:typeface="monospace"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNewEmail"
+        android:hint="Enter new email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:typeface="monospace"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:background="#CF5300"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Change Email"
+        android:textSize="30sp"
+        android:id="@+id/buttonChangeEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"/>
+
+
+
+</LinearLayout>
